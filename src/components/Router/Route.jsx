@@ -6,6 +6,7 @@ import ChangePass from '../Inner/ChangePass';
 import UsersDash from '../Main/UsersDash';
 import Dashboard from '../Inner/Dashboard';
 import RenewSub from '../Inner/RenewSub';
+import AdminDash from '../Main/AdminDash';
 
 const Router = () => {
   return (
@@ -17,6 +18,7 @@ const Router = () => {
         <Route path="/changePass" element={<ChangePass/>} />
         <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/renewsub" element={<RenewSub/>} />
+        <Route path="/admindash" element={<AdminDash/>} />
       </Routes>
     </BrowserRouter>
   )

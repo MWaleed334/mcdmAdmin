@@ -17,7 +17,9 @@ import  eyeicon from "./Images/eyeicon.png";
 import uslogoicon from "./Images/uslogoicon.png";
 import danger from "./Images/danger.png";
 import authbanner from "./Images/authbanner.png";
+import tdllogo2 from "./Images/tdllogo.png"
 export {
+  tdllogo2,
   authbanner,
   uslogoicon,
   eyeicon,

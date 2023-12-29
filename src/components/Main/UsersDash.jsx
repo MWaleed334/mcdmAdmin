@@ -1,11 +1,11 @@
 import React from 'react'
-import Sidebar from "../Inner/Sidebar";
+
 import Dashboard from "../Inner/Dashboard"
 
 const UsersDash = () => {
   return (
     <div className='flex'>
-    <Sidebar/>
+    {/* <Sidebar/> */}
     <Dashboard/>
   </div>
   )
